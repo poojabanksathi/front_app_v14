@@ -11,6 +11,7 @@ import dynamic from "next/dynamic";
 import LeadsClient from "../client/component/Pages/LeadsClient/LeadsClient";
 import React, { Suspense } from "react";
 import { cookies } from "next/headers";
+import { notFound } from "next/navigation";
 
 const FAQ = dynamic(() => import("@/app/client/component/common/FAQ/FAQ"), {
   ssr: false,
@@ -29,7 +30,7 @@ export default async function Leads({ searchParams }) {
     await getData(searchParams);
 
   if (!productData) {
-    return <div>Loading...</div>;
+    return notFound();
   }
 
   return (
