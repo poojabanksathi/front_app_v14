@@ -18,7 +18,7 @@ function CategoryBaseTab({ businessCategorydata, isDesktop }) {
         <div className='container h-auto pt-[32px] max-sm:pt-[24px] max-[1024px]:px-8 mx-auto max-[991px]:max-w-full  max-[479px]:px-4 max-[375px]:px-4 max-[320px]:px-4 relative z-[1]'>
           <>
             <div className='products-mark flex flex-col items-center justify-center gap-y-[16px] max-sm:gap-y-[6px]'>
-              <h1 className='leading-[22px] max-sm:leading-[24px] text-[#212529] head-text max-[834px]:leading-[22px] max-[479px]:leading-[22px] text-[28px] max-[1024px]:text-[28px] max-[771px]:text-[24px] max-[576px]:text-[20px] max-[479px]:text-[20px] max-[375px]:text-[20px] max-[320px]:text-[20px] max-[576px]:w-full font-semibold text-center '>
+              <h1 className='leading-[22px] text-[#212529] head-text  text-[28px] max-[576px]:w-full font-semibold text-center compromise-text '>
                 Why compromise when you can have the best!
               </h1>
               <h2 className='text-center text-neutral-800 text-[18px] max-sm:text-[15px] max-sm:leading-[20px] font-normal font-["Poppins"] leading-[18px]'>

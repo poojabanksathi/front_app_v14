@@ -38,7 +38,7 @@ const CreditScoreDesktop = ({ sizeData, isCreditRange = false }) => {
             <button
               className={`bg-[#49D49D] ${
                 isCreditRange ? ' w-[110px]' : 'w-[220px]'
-              } h-[56px] rounded-md font-faktum font-semibold text-[15px] leading-[18px] tracking-wide text-[#212529]`}>
+              } h-[56px] rounded-md head-text font-semibold text-[15px] leading-[18px] tracking-wide text-[#212529]`}>
               Check Now
             </button>
           </Link>

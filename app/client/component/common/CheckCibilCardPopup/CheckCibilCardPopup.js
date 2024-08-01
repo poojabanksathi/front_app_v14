@@ -39,7 +39,7 @@ const CheckCibilCardPopup = ({ cardData, position, title }) => {
         </div>
         <div className='mt-[18px] mb-[12px] text-center' onClick={() => sendEventToGTM(getPromotionObject(eventData))}>
           <Link href={cardData?.pathName}>
-            <button className='bg-[#49D49D] w-[190px] lg:w-[240px] h-[39px] max-[240px]:w-full rounded-md font-faktum font-semibold text-[15px] leading-[18px] tracking-wide text-[#212529]'>
+            <button className='bg-[#49D49D] w-[190px] lg:w-[240px] h-[39px] max-[240px]:w-full rounded-md head-text font-semibold text-[15px] leading-[18px] tracking-wide text-[#212529]'>
               {cardData?.buttonText}
             </button>
           </Link>

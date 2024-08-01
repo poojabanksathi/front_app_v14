@@ -70,7 +70,7 @@ const pathNameurl = usePathname()
             href={pathName ? pathName : cardData?.pathName}
             prefetch={false}
           >
-            <button className="bg-[#49D49D] w-full lg:w-[240px] h-[48px] rounded-md font-faktum font-semibold text-[15px] leading-[18px] tracking-wide text-[#212529]">
+            <button className="bg-[#49D49D] w-full lg:w-[240px] h-[48px] rounded-md head-text font-semibold text-[15px] leading-[18px] tracking-wide text-[#212529]">
               {cardData?.buttonText}
             </button>
           </Link>

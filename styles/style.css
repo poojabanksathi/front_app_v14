@@ -527,9 +527,15 @@
   box-shadow: 0 0 1px 0 #8d8d8d;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'faktum';
   src: url('/../fonts/ReneBieder-Faktum.otf') format('opentype');
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: 'faktum';
+  src: url('/../fonts/Faktum-SemiBold.woff') format('woff');
   font-display: swap;
 }
 
@@ -633,7 +639,9 @@ color: #49d49d !important;
   .leader-slider .navigation {
     bottom: -15% !important;
   }
-
+  .compromise-text{
+    line-height: 22px !important;
+  }
   .login-icon {
     display: block !important;
   }
@@ -848,6 +856,10 @@ color: #49d49d !important;
   .mobile-footer {
     padding: 15px 32px !important;
   }
+  .compromise-text{
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
   .bolg-details-card-img{
     height: 100%;
   }
@@ -968,6 +980,10 @@ color: #49d49d !important;
 @media (max-width: 479px) {
   .mobile-footer {
     padding: 16px !important;
+  }
+  .compromise-text{
+    font-size: 20px !important;
+    line-height: 22px !important;
   }
   .title-box-landing{
     font-size: 26px !important;
@@ -1202,6 +1218,9 @@ color: #49d49d !important;
   .moblie-footer-name {
     font-size: 11px;
   }
+  .compromise-text{
+    font-size: 20px !important;
+  }
   .sub-title-box-landing{
     font-size: 14px;
   }
@@ -1284,6 +1303,9 @@ color: #49d49d !important;
 @media (max-width: 320px) {
   .moblie-footer-name {
     font-size: 10px;
+  }
+  .compromise-text{
+    font-size: 20px !important;
   }
   .sub-title-box-landing{
     font-size: 13px;
@@ -1614,6 +1636,9 @@ color: #49d49d !important;
   .leader-slider .navigation {
     bottom: 12% !important;
   }
+  .compromise-text{
+    font-size: 28px !important;
+  }
   .sliderContainer {
     max-width: 100% !important;
   }
@@ -1654,6 +1679,9 @@ color: #49d49d !important;
   .longform-list h4,
   .reward-formcon h1 {
     text-align: left !important;
+  }
+  .compromise-text{
+    font-size: 24px !important;
   }
   .banner-contact-same {
     height: 466px;
