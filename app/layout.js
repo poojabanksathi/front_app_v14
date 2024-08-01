@@ -219,14 +219,13 @@ export default  function RootLayout({ children, pageProps }) {
     <html lang="en">
       {/* <HeaderComp /> */}
       <ErrorBoundary>
-        <body>
-        <Suspense fallback={<LoaderComponent />}>
-
           {!isLandingPage && (
             <HeaderComp metaData={businessmetaheadtag} />
           )}
+
           <ClientApplication>
             <body className="font-[poppins]">
+        <Suspense fallback={<LoaderComponent />}>
               {!isLandingPage && !isComaprePage && !isHomev2 && (
                 <div className="bg-[#844FCF] w-full relative">
                   <DynamicHeader
@@ -250,10 +249,9 @@ export default  function RootLayout({ children, pageProps }) {
                   </div>
                 </>
               )}
+        </Suspense>
             </body>
           </ClientApplication>
-        </Suspense>
-        </body>
       </ErrorBoundary>
     </html>
   );

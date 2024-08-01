@@ -18,7 +18,7 @@ const MobileFooter = dynamic(() => import('@/app/client/component/common/MobileF
   ssr: false
 })
 
-const LoginClient = (lastPageVisited) => {
+const LoginClient = ({lastPageVisited}) => {
   const router = useRouter()
 
   useEffect(() => {

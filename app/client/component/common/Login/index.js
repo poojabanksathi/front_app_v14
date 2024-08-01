@@ -268,7 +268,7 @@ const Loginpage = ({ lastPageVisited, metaData }) => {
             if (response?.data?.data?.is_first_time_user) {
               setModalStepper(2)
             } else {
-              router?.push(`${lastPageVisited}` || '/')
+              router?.push(lastPageVisited || '/')
             }
           }
         })
@@ -293,7 +293,7 @@ const Loginpage = ({ lastPageVisited, metaData }) => {
   // no
   const handleNo = () => {
     setModalStepper(0)
-    router?.push(`${lastPageVisited}` || '/' )
+    router?.push(lastPageVisited || '/' )
   }
 
   const handleNumberEdit = () => {
