@@ -53,11 +53,11 @@ export default function HomePageV2Client({businessCategorydata , faqdata , Recom
   }, [])
 
   const size = useWindowSize()
-  // useEffect(() => {
-  //   if (businessCategorydata?.productInfo?.length === 0) {
-  //     router.push('/maintenance')
-  //   }
-  // }, [businessCategorydata?.productInfo?.length, router])
+  useEffect(() => {
+    if (businessCategorydata?.productInfo?.length === 0) {
+      router.push('/maintenance')
+    }
+  }, [businessCategorydata?.productInfo?.length, router])
 
   const getOgUrl = typeof window !== 'undefined' && window?.location?.href
   const modifiedUrl = typeof window !== 'undefined' && window.location.origin + window.location.pathname

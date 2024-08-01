@@ -14,11 +14,11 @@ export const NewHomePage = ({ businessCategorydata, blogData }) => {
   const router = useRouter()
   const isDesktop = size?.width >= 768
 
-  // useEffect(() => {
-  //   if (businessCategorydata?.productInfo?.length === 0) {
-  //     router.push('/maintenance')
-  //   }
-  // }, [businessCategorydata?.productInfo?.length, router])
+  useEffect(() => {
+    if (businessCategorydata?.productInfo?.length === 0) {
+      router.push('/maintenance')
+    }
+  }, [businessCategorydata?.productInfo?.length, router])
 
   return (
     <>
