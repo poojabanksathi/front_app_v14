@@ -533,18 +533,20 @@
   font-display: swap;
 } */
 
+
+/* 
 @font-face {
   font-family: 'faktum';
   src: url('/../fonts/Faktum-SemiBold.woff') format('woff');
   font-display: swap;
-}
+} */
 
 @font-face {
   font-family: 'roboto';
   src: url('/../fonts/Roboto-Regular.ttf') format('truetype');
   font-display: swap;
 }
-
+/* 
 @font-face {
   font-family: 'Poppins';
   src: url('/fonts/Poppins-Regular.ttf') format('truetype');
@@ -553,7 +555,7 @@
 
 .head-text {
   font-family: 'faktum' !important;
-}
+} */
 
 .symbole-rupee {
   font-family: 'roboto' !important;
