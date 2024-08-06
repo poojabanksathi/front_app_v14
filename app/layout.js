@@ -240,9 +240,9 @@ export default  function RootLayout({ children, pageProps }) {
                   <MobileFooter
                     businessCategorydata={businessCategorydata}
                   />
-                  <DynamicFooter
+                  {/* <DynamicFooter
                     businessCategorydata={businessCategorydata}
-                  />
+                  /> */}
 
                   <div className="scroll-top">
                     <ScrollToTop smooth color="#000" />
