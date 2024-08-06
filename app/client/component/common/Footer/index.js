@@ -37,10 +37,12 @@ export default function Footer({ businessCategorydata }) {
             prefetch={false}
             className="flex items-center gap-2 max-[576px]:justify-start max-[576px]:w-full"
           >
-            <div className="relative" style={{ width: "44px", height: "34px" }}>
+            <div className="relative w-[44px] height-[34px]">
               <Image
                 src={FooterLogo}
-                layout="fill"
+                // layout="fill"
+                width={44}
+                height={34}
                 objectFit="contain"
                 alt="BankSathi logo"
                 priority
