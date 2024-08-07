@@ -39,7 +39,7 @@ export default function Content({ isDesktop }) {
       <div className='max-w-[1550px] w-full max-sm:w-auto mx-auto  h-auto py-[15px] max-sm:py-[30px] md:px-[16px] max-sm:px-[16px] bg-neutral-800 flex flex-row justify-center gap-x-[30px] max-sm:gap-y-[20px] items-center'>
         <div className='flex justify-center items-center flex-row xl:gap-x-[30px] md:gap-x-[20px] max-sm:flex-col max-sm:items-center max-sm:gap-y-[16px] max-sm:justify-center'>
           <Image src={logo} alt='img' height={50} width={50} className='max-sm:w-[40px] max-sm:h-[40px]' />
-          <p className='max-sm:text-center'>
+          {/* <p className='max-sm:text-center'>
             <span className="text-white xl:text-2xl md:text-[18px] max-sm:text-[20px] font-semibold font-['Faktum'] xl:leading-[28.80px] md:leading-[22px] max-sm:leading-[24px]">
               Checking your{' '}
             </span>
@@ -50,6 +50,14 @@ export default function Content({ isDesktop }) {
               {' '}
               is easier than cooking Maggi!
             </span>
+          </p> */}
+          <p className="max-sm:text-center text-white xl:text-2xl md:text-[18px] max-sm:text-[20px] font-semibold font-['Faktum'] xl:leading-[28.80px] md:leading-[22px] max-sm:leading-[24px]">
+             Checking your{' '}
+            <span className="text-emerald-400 xl:text-2xl md:text-[18px] max-sm:text-[20px] font-semibold font-['Faktum'] xl:leading-[28.80px] md:leading-[22px] max-sm:leading-[24px]">
+              Credit score  {' '}
+            </span>
+             is easier than cooking Maggi!
+        
           </p>
         </div>
         <Link
@@ -66,7 +74,7 @@ export default function Content({ isDesktop }) {
         <div className='w-full h-auto bg-[#2D2D2D] py-[12px] px-[16px] flex items-center justify-center gap-[5px]'>
           <div className='flex justify-center items-center  gap-x-[11px]'>
             <Image src={logo} alt='img' height={40} width={40} />
-            <p className='text-left'>
+            <p className='text-left leading-5'>
               <span className="text-white text-[15px] font-semibold font-['Faktum'] leading-[18px]">
                 Checking your{' '}
               </span>

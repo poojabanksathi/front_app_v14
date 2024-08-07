@@ -2064,16 +2064,11 @@ a:hover {
 .borderClass :last-child {
   border: none;
 }
+
 .animationClass {
   position: relative;
-  animation: stepperMove 10s 1;
-  animation-timing-function: linear;
+  animation: stepperMove 10s linear 1;
   will-change: transform;
-}
-.bg-imageMobile {
-  background-image: url('/assets/partners-bg-mobile.svg');
-  background-repeat: no-repeat;
-  background-position: top;
 }
 
 @keyframes stepperMove {
@@ -2084,6 +2079,15 @@ a:hover {
     transform: translateX(200px);
   }
 }
+
+
+
+.bg-imageMobile {
+  background-image: url('/assets/partners-bg-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
 .stickyCreditScore {
   position: fixed;
   bottom: 0;

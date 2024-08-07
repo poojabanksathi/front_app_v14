@@ -13,14 +13,14 @@ const KnowledgeBaseComp = ({ blogData }) => {
 
   return (
     <>
-      <Image
+      {/* <Image
         src={'/assets/star-bg-home.svg'}
         height={23}
         width={23}
         alt='img'
         priority={true}
         className='relative left-[89%] bottom-4 max-[768px]:w-[22px] max-[768px]:h-[22px] max-[768px]:bottom-2'
-      />
+      /> */}
       <div className='h-auto bg-white pb-[80px] container pt-[80px] max-[768px]:pt-12 px-12 mx-auto bg-[#F4F8FB] max-[1024px]:px-8 max-[991px]:max-w-full max-[479px]:px-4 max-[375px]:px-4 max-[320px]:px-4'>
         <div className='flex flex-col gap-y-[30px]'>
           <div className='flex flex-row justify-between'>

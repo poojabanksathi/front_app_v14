@@ -29,14 +29,14 @@ const PersonalisedProduct = () => {
   }
   return (
     <>
-      <Image
+      {/* <Image
         src={'/assets/star-bg-home.svg'}
         height={23}
         width={23}
         alt='img'
         priority={true}
         className='relative left-[89%] top-[20px] pb-[10px] max-[768px]:w-[26px] max-[768px]:h-[26px]'
-      />
+      /> */}
       <div className='lg:pb-[90px] md:py-10 lg:py-0 h-auto bg-[#fff] max-w-[1550px] mx-auto w-full max-[1024px]:px-8 max-[991px]:max-w-full  max-[375px]:px-0 max-[320px]:px-0'>
         <div className='flex items-center justify-center flex-row gap-x-[30px] max-[768px]:flex-col lg:px-[135px]'>
           <div className='flex flex-col gap-y-[30px] items-start justify-start'>
@@ -50,7 +50,7 @@ const PersonalisedProduct = () => {
               <Image
                 src={stepper1}
                 alt='img'
-                className={`pt-[13px] max-md:w-[110px] max-md:h-[120px] animationClass`}
+                className={`pt-[13px] max-md:w-[110px] max-md:h-[120px] `}
                 height={130}
                 width={130}
                 priority={true} 
@@ -63,7 +63,7 @@ const PersonalisedProduct = () => {
               <Image
                 src={stepper2}
                 alt='img'
-                className={`pt-[8px] max-md:w-[120px] max-md:h-[115px] animationClass`}
+                className={`pt-[8px] max-md:w-[120px] max-md:h-[115px] `}
                 height={110}
                 width={150}
                 priority={true} 
@@ -77,7 +77,7 @@ const PersonalisedProduct = () => {
                 src={stepper3}
                 alt='img'
                 priority={true} 
-                className={`pt-[14px] max-md:w-[138px] max-md:h-[125px] animationClass`}
+                className={`pt-[14px] max-md:w-[138px] max-md:h-[125px] `}
                 height={110}
                 width={150}
               />
