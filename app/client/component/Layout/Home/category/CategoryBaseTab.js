@@ -25,14 +25,14 @@ function CategoryBaseTab({ businessCategorydata, isDesktop }) {
                 Choose Smart & Personalized financial solutions
               </h2>
             </div>
-            {/* <Image
+            <Image
               src={ProductBg}
               className='absolute z-[-1] left-[30%] max-[1440px]:left-[26%] max-[1200px]:left-[16%] top-[3%] max-[1440px]:top-[15%] max-[771px]:top-[24%] w-[42%] max-[1440px]:w-[550px] max-[771px]:w-3/5 max-[771px]:left-[22%] max-[576px]:w-3/4 max-[576px]:left-[12%] max-[576px]:top-[72%] max-[479px]:top-[62%]'
               alt='img'
               height={110}
               width={645}
               priority={true}
-            /> */}
+            />
           </>
         </div>
         <div className='!bg-[#F4F8FB] mt-[26px] max-sm:mt-[19px] h-auto'>

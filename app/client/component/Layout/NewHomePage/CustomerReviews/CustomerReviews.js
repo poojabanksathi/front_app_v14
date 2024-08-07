@@ -82,14 +82,14 @@ const CustomerReviews = () => {
   }
   return (
     <div>
-      {/* <Image
+      <Image
         src={'/assets/green-star-bg.svg'}
         height={23}
         width={23}
         alt='img'
         priority={true}
         className='relative left-[26%] pb-[10px] max-[768px]:w-[26px] max-[768px]:h-[26px] max-[768px]:left-[10px]'
-      /> */}
+      />
       <div className='flex flex-col gap-y-[30px] max-[768px]:gap-y-[24px] justify-center items-center'>
         <div className="text-center text-neutral-800 text-[40px] max-[756px]:text-[22px] max-[756px]:leading-[26.4px] font-semibold font-['Faktum'] leading-[48px]">
           Check what our customers has to say

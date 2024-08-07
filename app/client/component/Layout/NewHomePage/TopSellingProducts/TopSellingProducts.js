@@ -79,14 +79,14 @@ const TopSellingProducts = () => {
           </div>
         </div>
       </div>
-      {/* <Image
+      <Image
         src={'/assets/green-dot-bg.svg'}
         height={15}
         width={15}
         alt='img'
         priority={true}
         className='relative bottom-[40px] max-[768px]:w-[10px] max-[768px]:h-[10px] max-[768px]:bottom-0 top-4'
-      /> */}
+      />
     </>
   )
 }
