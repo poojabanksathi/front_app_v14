@@ -23,9 +23,9 @@ export const NewHomePage = ({ businessCategorydata, blogData }) => {
   return (
     <>
       <CategoryBaseTab isDesktop={isDesktop} businessCategorydata={businessCategorydata} />
-      {/* <div className='pt-[50px] max-sm:pt-[30px]'>
+      <div className='pt-[50px] max-sm:pt-[30px]'>
         <PersonalisedProduct />
-      </div> */}
+      </div>
       <div className='h-auto container pt-[50px] max-[768px]:pt-12 mx-auto bg-[#F4F8FB] max-[1024px]:px-8 max-[991px]:max-w-full max-[479px]:px-4 max-[375px]:px-4 max-[320px]:px-4'>
         <CustomerReviews />
       </div>
