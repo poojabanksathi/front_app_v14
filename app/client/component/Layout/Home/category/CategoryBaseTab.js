@@ -37,11 +37,11 @@ function CategoryBaseTab({ businessCategorydata, isDesktop }) {
         </div>
         <div className='!bg-[#F4F8FB] mt-[26px] max-sm:mt-[19px] h-auto'>
           <CategoryTabsHome businessCategorydata={businessCategorydata} isDesktop={isDesktop} />
-          <Content isDesktop={isDesktop} />
+          {/* <Content isDesktop={isDesktop} /> */}
         </div>
-        <div className='lg:mt-[40px] max-sm:mt-0 bg-[#F4F8FB] container mx-auto max-[768px]:px-[12px] max-[768px]:pt-[30px] md:mt-[50px] '>
+        {/* <div className='lg:mt-[40px] max-sm:mt-0 bg-[#F4F8FB] container mx-auto max-[768px]:px-[12px] max-[768px]:pt-[30px] md:mt-[50px] '>
           <TopSellingProducts isDesktop={isDesktop} />
-        </div>
+        </div> */}
         <div className='mt-[40px] max-sm:mt-[30px]'>
           <TroubleComp />
         </div>

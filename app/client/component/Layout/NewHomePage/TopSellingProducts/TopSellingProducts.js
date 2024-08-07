@@ -31,14 +31,14 @@ const TopSellingProducts = () => {
   }
   return (
     <>
-      {/* <Image
+      <Image
         src={'/assets/star-bg-home.svg'}
         height={24}
         width={24}
         alt='img'
         priority={true}
         className='relative left-[85%] pb-[10px] max-[768px]:w-[24px] max-[768px]:h-[24px]'
-      /> */}
+      />
       <div className='flex flex-col gap-y-[24px] max-sm:gap-y-[20px] items-center justify-center max-sm:mt-6'>
         <div className="text-center text-neutral-800 text-[40px] max-[576px]:text-[22px] max-sm:leading-[26.4px] max-[768px]:text-[24px] max-[768px]:leading-[25px] font-semibold font-['Faktum'] leading-[48px]">
           Our Best Categories
