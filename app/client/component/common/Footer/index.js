@@ -30,7 +30,7 @@ export default function Footer({ businessCategorydata }) {
 
   return (
     <div className="bg-[#212529]">
-      {/* <div className="container min-h-[500px] max-[1024px]:px-8 mx-auto max-[991px]:max-w-full pt-[100px] pb-[60px] max-[479px]:px-4 max-[375px]:px-4 max-[320px]:px-4 max-[479px]:pt-[50px] max-[576px]:!pb-[100px] max-[479px]:pb-28">
+      <div className="container min-h-[500px] max-[1024px]:px-8 mx-auto max-[991px]:max-w-full pt-[100px] pb-[60px] max-[479px]:px-4 max-[375px]:px-4 max-[320px]:px-4 max-[479px]:pt-[50px] max-[576px]:!pb-[100px] max-[479px]:pb-28">
         <div className="flex items-center justify-between py-2 pb-16 max-[479px]:flex-col">
           <Link
             href="/"
@@ -190,7 +190,7 @@ export default function Footer({ businessCategorydata }) {
           © Copyright {new Date().getFullYear()}. All Rights Reserved.
           BankSathi
         </p>
-      </div> */}
+      </div>
     </div>
   );
 }
