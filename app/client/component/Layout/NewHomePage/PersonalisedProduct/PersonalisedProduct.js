@@ -45,12 +45,12 @@ const PersonalisedProduct = () => {
             </div>
             {isDesktop && getStartedComp()}
           </div>
-          <div className='flex flex-row gap-x-[10px]  max-md:mt-[24px] max-[768px]:w-full max-[768px]:overflow-x-scroll category-btn-scroll'>
+          <div className='flex flex-row gap-x-[10px] max-md:mt-[24px] max-[768px]:w-full max-[768px]:overflow-x-scroll category-btn-scroll'>
             <div className='w-[183px] h-[250px] bg-slate-50 rounded-3xl max-md:h-[210px] step-container'>
               <Image
                 src={stepper1}
                 alt='img'
-                className={`pt-[13px] max-md:w-[110px] max-md:h-[120px] animationClass`}
+                className='pt-[13px] max-md:w-[110px] max-md:h-[120px] animationClass'
                 height={130}
                 width={130}
                 priority={true} 
@@ -63,7 +63,7 @@ const PersonalisedProduct = () => {
               <Image
                 src={stepper2}
                 alt='img'
-                className={`pt-[8px] max-md:w-[120px] max-md:h-[115px] animationClass`}
+                className='pt-[8px] max-md:w-[120px] max-md:h-[115px] animationClass'
                 height={110}
                 width={150}
                 priority={true} 
@@ -77,7 +77,7 @@ const PersonalisedProduct = () => {
                 src={stepper3}
                 alt='img'
                 priority={true} 
-                className={`pt-[14px] max-md:w-[138px] max-md:h-[125px] animationClass`}
+                className='pt-[14px] max-md:w-[138px] max-md:h-[125px] animationClass'
                 height={110}
                 width={150}
               />
@@ -88,7 +88,7 @@ const PersonalisedProduct = () => {
           </div>
           {!isDesktop && (
             <>
-              <div className='flex flex-col items-center justify-center pt-[24px] gap-y-[24px] px-4 pb-[20px] '>
+              <div className='flex flex-col items-center justify-center pt-[24px] gap-y-[24px] px-4 pb-[20px]'>
                 {getStartedComp()}
               </div>
             </>

@@ -21,7 +21,7 @@ const KnowledgeBaseComp = ({ blogData }) => {
         priority={true}
         className='relative left-[89%] bottom-4 max-[768px]:w-[22px] max-[768px]:h-[22px] max-[768px]:bottom-2'
       />
-      <div className='h-auto bg-white pb-[80px] container pt-[80px] max-[768px]:pt-12 px-12 mx-auto bg-[#F4F8FB] max-[1024px]:px-8 max-[991px]:max-w-full max-[479px]:px-4 max-[375px]:px-4 max-[320px]:px-4'>
+      <div className='h-auto bg-white pb-[80px] container pt-[80px] max-[768px]:pt-12 px-12 mx-auto max-[1024px]:px-8 max-[991px]:max-w-full max-[479px]:px-4 max-[375px]:px-4 max-[320px]:px-4'>
         <div className='flex flex-col gap-y-[30px]'>
           <div className='flex flex-row justify-between'>
             <div className="text-neutral-800 text-[40px]  max-[768px]:text-[22px] max-[768px]:leading-[26.4px] font-semibold font-['Faktum'] leading-[48px]">
@@ -39,17 +39,17 @@ const KnowledgeBaseComp = ({ blogData }) => {
           <div className='flex flex-row gap-x-[40px] max-[768px]:flex-col max-sm:px-4 items-center'>
             <div className='flex flex-col items-start justify-start p-[30px] max-sm:p-[12px] w-auto h-auto rounded-2xl border'>
               <Link href={`/blog/${list?.[5]?.url_slug}`} prefetch={false}>
-                <Image
+                  <Image
                   className='w-[638.88px] xl:h-80 rounded-2xl max-[768px]:w-auto max-[768px]:h-auto'
-                  width={638}
-                  height={320}
-                  src={`${Img_URL}/${list?.[5]?.image}`}
-                  alt='img'
-                  priority={true}
-                />
+                    width={638}
+                    height={320}
+                    src={`${Img_URL}/${list?.[5]?.image}`}
+                    alt='img'
+                    priority={true}
+                  />
               </Link>
               <Link href={`/blog/${list?.[5]?.url_slug}`} prefetch={false}>
-                <div className=" max-[768px]:w-[283px] max-[768px]:text-neutral-800 max-[768px]:text-[15px] pt-[30px] text-neutral-800 text-2xl font-medium font-['Poppins'] leading-[33.60px]">
+                <div className="max-[768px]:w-[283px] max-[768px]:text-neutral-800 max-[768px]:text-[15px] pt-[30px] text-neutral-800 text-2xl font-medium font-['Poppins'] leading-[33.60px]">
                   {list?.[5]?.title}
                 </div>
               </Link>

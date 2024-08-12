@@ -37,7 +37,7 @@ export default function Footer({ businessCategorydata }) {
             prefetch={false}
             className="flex items-center gap-2 max-[576px]:justify-start max-[576px]:w-full"
           >
-            <div className="relative w-[44px] height-[34px]">
+            <div className="relative w-[44px] h-[34px]">
               <Image
                 src={FooterLogo}
                 // layout="fill"
@@ -63,7 +63,7 @@ export default function Footer({ businessCategorydata }) {
         </div>
 
         <div className="flex xl:gap-4 justify-between max-[771px]:justify-normal flex-wrap max-[576px]:gap-12 footer-gap max-[576px]:grid max-[576px]:grid-cols-2">
-          <div className="max-[771px]:pl-[32px] max-[768px]:pl-[30px] product-footer max-[576px]:pl-0">
+          <div className="product-footer max-[576px]:pl-0">
             <div className="mt-0">
               <p className="text-white text-[18px] font-semibold decoration-white pb-4 max-[375px]:text-[16px] max-[320px]:!pb-3">
                 Products

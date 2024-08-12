@@ -107,6 +107,7 @@ function EnquiryInfluence() {
                                             width={130}
                                             className='mx-auto py-3 max-[479px]:py-2'
                                             alt='img'
+                                            priority={true} 
                                         />
                                     </div>
                                 </div>

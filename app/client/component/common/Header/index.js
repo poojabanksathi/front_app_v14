@@ -285,19 +285,21 @@ export default function Header({
                 <div className='w-[16%] flex flex-row items-center gap-[10px] py-3 max-[1440px]:w-[18%] max-[1200px]:w-[20%] max-[820px]:w-[18%] max-[771px]:w-[22%] max-[576px]:w-[44%]'>
                     <div
                       onClick={handleMenuOpen}
-                      className='flex max-md:block hidden title-font font-medium items-center text-gray-900 md:mb-0  mt-0  w-full   max-[576px]:w-[18%] focus:outline-none mobile-logo-head'
+                      className='flex max-md:block md:hidden title-font font-medium items-center text-gray-900 md:mb-0  mt-0  w-full   max-[576px]:w-[18%] focus:outline-none mobile-logo-head'
                       prefetch={false}>
                       <Image src={menuImage} alt='BankSathi' className='w-3/6 max-[834px]:w-2/5 max-[576px]:w-full' priority={true}/>
                     </div>
                   <Link
                       href='/'
                       className='flex gap-[0.3rem] title-font font-medium items-center text-gray-900 md:mb-0  mt-0  w-full  focus:outline-none mobile-logo-head'
-                      prefetch={false}>
+                      prefetch={false}
+                      aria-label="BankSathi Homepage">
                       <Image
                         src={FooterLogo}
-                        alt='BankSathi'
+                        alt='BankSathi logo'
                         priority={true}
                         className='w-[18%] max-[834px]:w-[22%] max-[576px]:w-[18%] max-[479px]:w-[18%]'
+                        style={{ width: '72px', height: 'auto' }}
                       />
                     <p className="text-[#14363d] font-[faktum] font-bold text-center text-[38px] tracking-[-1.5px] leading-7 max-[1200px]:text-[34px] max-[1024px]:text-[32px]  max-[991px]:text-[30px] max-[834px]:text-[26px]  max-[576px]:text-[20px] max-[479px]:text-[16px] max-[479px]:tracking-[0px]">BankSathi</p>
                     </Link>

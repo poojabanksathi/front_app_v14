@@ -25,7 +25,7 @@ const TroubleComp = () => {
             pathName === '/' ? 'contactus-btn-home' : 'contactus-btn'
           }  items-center`}>
           <Link href='/contact-us' prefetch={false}>
-            <button className='text-neutral-800 text-[15px] font-semibold font-["Faktum"] cursor-pointer text-[#212529] max-[375px]:text-[14px] font-semibold max-[771px]:text-[15px]'>
+            <button className='text-[15px] font-[Faktum] cursor-pointer text-[#212529] max-[375px]:text-[14px] font-semibold max-[771px]:text-[15px]'>
               Contact Us
             </button>
           </Link>
