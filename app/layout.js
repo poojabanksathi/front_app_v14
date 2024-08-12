@@ -11,7 +11,7 @@ import { v4 as uuidv4 } from "uuid";
 import React, { Component, Suspense, useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import ErrorBoundary from "@/core/ErrorBoundary/ErrorBoundary";
-// import DynamicFooter from "@/app/client/component/common/Footer";
+import DynamicFooter from "@/app/client/component/common/Footer";
 import DynamicHeader from "@/app/client/component/common/Header";
 import HeaderComp from "@/app/client/component/common/HeaderComp/HeaderComp";
 import ScrollToTop from "react-scroll-to-top";
@@ -240,9 +240,9 @@ export default  function RootLayout({ children, pageProps }) {
                   <MobileFooter
                     businessCategorydata={businessCategorydata}
                   />
-                  {/* <DynamicFooter
+                  <DynamicFooter
                     businessCategorydata={businessCategorydata}
-                  /> */}
+                  />
 
                   <div className="scroll-top">
                     <ScrollToTop smooth color="#000" />

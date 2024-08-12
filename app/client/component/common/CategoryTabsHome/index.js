@@ -115,6 +115,7 @@ function CategoryTabsHome({ businessCategorydata, isDesktop }) {
                       className='mx-auto max-[1200px]:w-[78%] max-[1024px]:w-[50%] max-[771px]:w-[60%] tab-card-img max-[280px]:w-full'
                       unoptimized={true}
                       priority={true}
+                      layout="intrinsic"
                     />
                   )}
                 </div>

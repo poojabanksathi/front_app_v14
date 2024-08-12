@@ -60,12 +60,12 @@ const KnowledgeBaseComp = ({ blogData }) => {
                   </p>
                 )}
                 {list?.[5]?.created_at && (
-                  <p className='font-poppins font-normal text-[13px] leading-[30px]  text-[#212529] pb-2'>
+                  <p className='font-poppins font-normal text-[13px] leading-[30px]  text-[#212529]'>
                     {forFirstDate}
                   </p>
                 )}
                 {list?.[5]?.tor && (
-                  <p className='font-poppins font-normal text-[13px] leading-[30px]  text-[#212529] pb-2'>
+                  <p className='font-poppins font-normal text-[13px] leading-[30px]  text-[#212529]'>
                     {list?.[5]?.tor} min read
                   </p>
                 )}
@@ -88,12 +88,12 @@ const KnowledgeBaseComp = ({ blogData }) => {
                         </p>
                       )}
                       {item?.created_at && (
-                        <p className='font-poppins font-normal text-[13px] leading-[30px]  text-[#212529] pb-2'>
+                        <p className='font-poppins font-normal text-[13px] leading-[30px]  text-[#212529]'>
                           {date}
                         </p>
                       )}
                       {item?.tor && (
-                        <p className='font-poppins font-normal text-[13px] leading-[30px]  text-[#212529] pb-2'>
+                        <p className='font-poppins font-normal text-[13px] leading-[30px]  text-[#212529]'>
                           {item?.tor} min read
                         </p>
                       )}

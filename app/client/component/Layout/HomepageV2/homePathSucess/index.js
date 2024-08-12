@@ -175,6 +175,8 @@ function HomePathSucess() {
                       src={'/assets/gaurav-das.svg'}
                       className='rounded-full w-[40px]'
                       alt='image'
+                      height={'auto'}
+                      width={40}
                     />
                   </div>
                   <div className='text-left pl-7'>
